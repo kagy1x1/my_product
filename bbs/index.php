@@ -13,10 +13,10 @@ $res = null;
 session_start();
 
 //DB接続情報
-$db['dbname'] = "kagyphp_bbsdb";  // データベース名
-$db['user'] = "kagyphp_bbs";  // ユーザー名
-$db['pass'] = "shitaraba146";  // ユーザー名のパスワード
-$db['host'] = "mysql1.php.xdomain.ne.jp";  // DBサーバのURL
+$db['dbname'] = "";  // データベース名
+$db['user'] = "";  // ユーザー名
+$db['pass'] = "";  // ユーザー名のパスワード
+$db['host'] = "";  // DBサーバのURL
 $dsn = sprintf('mysql:host=%s; dbname=%s; charset=utf8', $db['host'], $db['dbname']);
 
 //DB接続チェック
